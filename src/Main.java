@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        long[] sales = {10_000, 20_000, 60_000, 100_000};
+        long[] sales = new long[]{10000L, 20000L, 60000L, 100000L};
         SalesManager salesMan = new SalesManager(sales);
         System.out.println("Расчет среднего: " + salesMan.statistik());
     }
